@@ -1,0 +1,59 @@
+body {background: pink;
+	
+
+	
+}
+
+header {
+	color : violet;
+	margin-left: 10%;
+}
+
+article {
+	display: block;
+	vertical-align: top;
+	text-align: justify;
+	background-image: url("https://i.imgur.com/zJ1xGoi.jpg"	);
+	margin-left: 5%;
+	margin-right: 5%;
+	background-position: middle;
+	word-wrap :break-word;
+	color: black;
+}
+
+
+footer {
+	color: pink;
+}
+
+text {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 1px;
+	display: table;
+
+}
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button3 {
+	display: middle;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+
