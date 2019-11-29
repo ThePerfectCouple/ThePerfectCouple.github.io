@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title> To my Alex </title>
- 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="index.css">
- 
+    <title>To My Heart</title>
 </head>
-
 <body>
-	
 <header>
-  <h1> For our two months </h1>
+    
+
 </header>
- 
 <article>
-<div>
-	<p>lqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosxlqsxjoqisxjoqixjoqsixjoqsixjoqsixjqosxijqosixjqosx</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
-</article> 
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
 
-<footer>
-<a href="index2.html">
-<button class="button button3">Click here to see our 2nd month highlights</button>
-</a>
-
-</footer>
-
-
-
-
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "teddybear";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="index2.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
 </body>
+</article>
+
 </html>
