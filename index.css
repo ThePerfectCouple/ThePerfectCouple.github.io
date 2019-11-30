@@ -1,0 +1,16 @@
+body {
+	background-image: url("https://i.imgur.com/zJ1xGoi.jpg"	);
+}
+header{
+	color:violet;
+
+
+}
+.div1 {
+	width: 30px;
+  	height: 100px;  
+  	padding: 20px;
+	box-sizing: border-box;
+
+}
+

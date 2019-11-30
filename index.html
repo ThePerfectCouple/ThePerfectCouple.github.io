@@ -2,24 +2,25 @@
 <html>
 <head>
     <title>To My Heart</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 <header>
-    
+    <div class="div1">
+    <h3>What is my favourite nickname ?</h3>
 
-</header>
-<article>
+
 <form>
-    <label for="pswd">Enter your password: </label>
+    <label for="pswd">Password: </label>
     <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();" />
+    <input type="button" value="Submit" onclick="checkPswd();" / placeholder="Password">
 </form>
 
 <script type="text/javascript">
     function checkPswd() {
         var confirmPassword = "teddybear";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
+        if (password.toLowerCase() == confirmPassword) {
              window.location="index2.html";
         }
         else{
@@ -27,7 +28,11 @@
         }
     }
 </script>
+</div>
+</header>
+
+
 </body>
-</article>
+
 
 </html>
