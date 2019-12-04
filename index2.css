@@ -16,14 +16,16 @@ article {
 	display: block;
 	vertical-align: top;
 	text-align: justify;
-	background-image: url("https://i.imgur.com/zJ1xGoi.jpg"	);
+	background-image: url("https://imgur.com/xwb5fXH.jpg"	);
 	margin-left: 5%;
 	margin-right: 6%;
 	background-position: middle;
 	word-wrap :break-word;
 	color: black;
 	border: 3px solid #fc6c85;
-    border-radius: 8px;}
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
 
 
 footer {
@@ -144,3 +146,4 @@ a{
 	margin-left: 35%;
 	margin-right: 30%;
 }
+
