@@ -1,0 +1,120 @@
+body {background-color: #333;
+	
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    text-align: center;
+
+
+}
+header {
+	color : violet;
+	margin-left: 10%;
+}
+
+article {
+	display: block;
+	vertical-align: top;
+	text-align: justify;
+	background-image: url("https://imgur.com/xwb5fXH.jpg"	);
+	margin-left: 5%;
+	margin-right: 6%;
+	background-position: middle;
+	word-wrap :break-word;
+	color: black;
+	border: 3px solid white;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+	color: pink;
+}
+
+text {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 1px;
+	display: table;
+
+}
+
+h1{
+    text-align: center;
+    margin-right: 17%;
+}
+    
+    
+    
+
+
+.button {
+    
+    --offset: 10px;
+    --border-size: 2px;
+    margin-left: 37%;
+    margin-right: 20%;
+    display: block;
+    position: relative;
+    padding: 1.5em 3em;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .8s ease;
+    
+    
+    
+}
+
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 25px;
+    color: #2c3539;
+}
+
+
+
+
+a{
+	margin-left: 35%;
+	margin-right: 30%;
+}
+script {
+    width:100%;
+    height: 100%;
+}
+.sf-snow-flake {
+position: fixed;
+top: -20px;
+z-index: 99999;
+width: 100%;
+}
+.sf-snow-anim {
+top: 110%;
+width:100%;
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+
+}
+
+
+

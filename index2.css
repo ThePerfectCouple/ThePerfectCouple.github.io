@@ -1,43 +1,45 @@
 body {background-color: #fdd7e4;
-	
+    
 }
 h1{
     font-family: "Times New Roman", Times, serif;
     color: #fc6c85;
+    text-align: center;
+
 
 
 }
 header {
-	color : violet;
-	margin-left: 10%;
+    color : violet;
+    margin-left: 10%;
 }
 
 article {
-	display: block;
-	vertical-align: top;
-	text-align: justify;
-	background-image: url("https://imgur.com/xwb5fXH.jpg"	);
-	margin-left: 5%;
-	margin-right: 6%;
-	background-position: middle;
-	word-wrap :break-word;
-	color: black;
-	border: 3px solid #fc6c85;
+    display: block;
+    vertical-align: top;
+    text-align: justify;
+    background-image: url("https://imgur.com/xwb5fXH.jpg"   );
+    margin-left: 5%;
+    margin-right: 6%;
+    background-position: middle;
+    word-wrap :break-word;
+    color: black;
+    border: 3px solid #fc6c85;
     border-radius: 8px;
     background-repeat: no-repeat;
 }
 
 
 footer {
-	color: pink;
+    color: pink;
 }
 
 text {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	border-bottom: 1px;
-	display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1px;
+    display: table;
 
 }
 
@@ -54,9 +56,8 @@ h1{
     
     --offset: 10px;
     --border-size: 2px;
-    margin-left: 37%;
-    margin-right: 20%;
-    display: block;
+   justify-content: center;
+    display: flex;
     position: relative;
     padding: 1.5em 3em;
     appearance: none;
@@ -143,7 +144,25 @@ p {
 
 
 a{
-	margin-left: 35%;
-	margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 30%;
 }
+
+.button {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+}
+
+
+
+
+
+
 
