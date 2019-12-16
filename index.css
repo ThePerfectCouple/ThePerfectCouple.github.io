@@ -1,7 +1,7 @@
 body {
-	background-image: url(""	);
+	background-image: url("https://i.imgur.com/li8Le7s.jpg");
 	background-repeat: no-repeat;
-	background-color: pink;
+	background-color: #333;
 	background-size: cover; 
 }
 
@@ -11,6 +11,16 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:violet;
+  color:white;
 }
 
+.sf-snow-flake {
+position: fixed;
+top: -20px;
+z-index: 99999;
+width: 100%;
+}
+.sf-snow-anim {
+top: 110%;
+width:100%;
+}

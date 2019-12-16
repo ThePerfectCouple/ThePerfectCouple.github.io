@@ -5,6 +5,7 @@ h1{
     font-family: "Times New Roman", Times, serif;
     color: white;
     text-align: center;
+    font-size: 4em;
 
 
 }
@@ -17,7 +18,8 @@ article {
 	display: block;
 	vertical-align: top;
 	text-align: justify;
-	background-image: url("https://imgur.com/xwb5fXH.jpg"	);
+	background-image: url("https://imgur.com/3xg5nT8.jpg");
+    background-size: cover; 
 	margin-left: 5%;
 	margin-right: 6%;
 	background-position: middle;
@@ -83,7 +85,7 @@ p {
     margin-right: 3%;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-size: 25px;
+    font-size: 10em;
     color: #2c3539;
 }
 
