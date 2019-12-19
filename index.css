@@ -14,13 +14,3 @@ header {
   color:white;
 }
 
-.sf-snow-flake {
-position: fixed;
-top: -20px;
-z-index: 99999;
-width: 100%;
-}
-.sf-snow-anim {
-top: 110%;
-width:100%;
-}
