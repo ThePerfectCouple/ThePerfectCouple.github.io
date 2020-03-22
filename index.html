@@ -21,7 +21,19 @@
 
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "the no reason paper";
+        var pswd = document.getElementById("pswd");
+
+
+        pswd.onkeyup = function (e) {
+        if (e.which == 13) checkPswd();
+};
+
+
+        pswd.parentElement.onsubmit = function () {
+        return false;
+};
+
+        var confirmPassword = "the no reason letter";
         var confirmPassword2 = "periodspaper";
         var password = document.getElementById("pswd").value;
         if (password.toLowerCase() == confirmPassword) {
