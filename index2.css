@@ -242,8 +242,22 @@ footer {
     margin:  auto;
 }
 
+a{
+    margin-left: 35%;
+    margin-right: 30%;
+}
 
+.button {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+}
 
+footer {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+}
 
 
 

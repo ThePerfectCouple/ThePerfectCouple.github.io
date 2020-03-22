@@ -294,3 +294,27 @@ width:100%;
     background-color: red;
     color: aqua;
     width: 20%;
+}
+
+a{
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    margin:  auto;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+
+
