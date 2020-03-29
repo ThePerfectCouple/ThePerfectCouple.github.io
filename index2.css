@@ -99,7 +99,7 @@ b span {
 
 #intro {
   width: 200px;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
 }
 
 .button {
@@ -221,16 +221,6 @@ p {
     font-size: 25px;
     color: #2c3539;
 }
-
-
-
-
-a{
-    margin-left: 35%;
-    margin-right: 30%;
-}
-
-
 a{
     margin-left: 35%;
     margin-right: 30%;

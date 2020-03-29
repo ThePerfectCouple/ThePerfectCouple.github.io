@@ -63,11 +63,16 @@ h1{
 
 
 html {
- 
-   
+     border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+   
+    
 }
 
 *,*:before,*:after {
@@ -232,10 +237,7 @@ a{
     margin-left: 35%;
     margin-right: 30%;
 }
-script {
-    width:100%;
-    height: 100%;
-}
+
 .sf-snow-flake {
 position: fixed;
 top: -20px;
@@ -249,7 +251,10 @@ width:100%;
 
     
     
-
+#intro {
+  width: 200px;
+  margin: 50px auto 0;
+}
 
 
 #intro{

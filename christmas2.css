@@ -271,3 +271,8 @@ b span {
     width: 0;
     height: 2px;
 }
+    
+#intro {
+  width: 200px;
+  margin: 50px auto 0;
+}
