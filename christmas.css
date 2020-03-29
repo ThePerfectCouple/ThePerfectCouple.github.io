@@ -212,7 +212,7 @@ b span {
     
     
     
-}
+
 
 
 p {
@@ -253,19 +253,9 @@ width:100%;
 
 
 #intro{
-
-    
-
     display: flex; 
     justify-content: center;
-    
-    
-}
-.mwa {
-    justify-content: center;
-    margin: auto;
-    margin-right: 35%;
-}
+    }
 
 
 

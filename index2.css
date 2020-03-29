@@ -250,6 +250,9 @@ footer {
    margin-bottom: 5px;
 }
 
-
+#intro{
+    display: flex; 
+    justify-content: center;
+    }
 
 
